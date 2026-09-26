@@ -1,0 +1,13 @@
+{
+  "candidates": 552,
+  "source_assets": 186,
+  "pending_review": 552,
+  "failures": [],
+  "selection": "Temporal motion candidates; phase and form are unreviewed.",
+  "excluded_plank_multibox": [
+    "data/sources/Plank_detection/train/images/GP_B_S_12_jpg.rf.45246024d40de5f88383ed970417ff96.jpg",
+    "data/sources/Plank_detection/train/images/GP_B_S_3_jpg.rf.311f30181415d2226a2a776c08634cde.jpg",
+    "data/sources/Plank_detection/train/images/GP_B_S_5_jpg.rf.4bfca92da7edc5064fdedddecdba6f96.jpg",
+    "data/sources/Plank_detection/train/images/GP_W_S_7_jpg.rf.0864de2b8ddf15bc1bc3a95f141970fd.jpg"
+  ]
+}

@@ -1,0 +1,24 @@
+# Virtual environment & caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Large raw datasets (raw videos 12+ GB)
+data/sources/
+
+# Build artifacts & runtime models
+artifacts/
+yolo12n.pt
+Ultralytics/
+*.log
+
+# Internal engineering documents, Codex context, and planning
+CODEX_CONTEXT.md
+CODEX_CONTEXT_REVISED.md
+DATASET_AUDIT_PROPOSAL_AWARE.md
+DATASET_OPTIONS_PUBLIC.md
+ENGINEERING_REVIEW.md
+NEXT_DATASET_PLAN.md
+Proposal*.md
+PROTOTYPE_README.md

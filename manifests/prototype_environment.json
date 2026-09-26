@@ -1,0 +1,13 @@
+{
+  "python": "3.10.6",
+  "windows": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.2.6",
+  "opencv": "4.14.0",
+  "mediapipe": "0.10.35",
+  "scikit_learn": "1.7.2",
+  "torch": "2.14.0+cpu",
+  "torch_cuda_available": false,
+  "ultralytics": "8.4.163",
+  "pose_task_sha256": "59929e1d1ee95287735ddd833b19cf4ac46d29bc7afddbbf6753c459690d574a",
+  "yolo12n_pretrained_sha256": "419ff3dca37d69bacc93a50fa0c186a1c6f9fe62fae0f108b0872829689e9ca6"
+}

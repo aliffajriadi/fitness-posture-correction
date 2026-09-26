@@ -1,0 +1,278 @@
+sample_id,source_name,split,exercise_hint,form_hint,reason
+9e2172e791e1ac2d32ef,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+70089f7fafe7c22795d0,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+1381c89fd32ff2ac9168,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+69acfc9e8838fb21f030,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+aac80f3d527c42dcfdbe,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+504cf7beec2713ee1031,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+96b6ab5016c7f53e8c53,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+d5aa2bce5059c573f047,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+d7bcf6aa18daada908bf,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+91b988a22d2be2882273,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+b6d4930c8e92d37b2d4f,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+ff533469402b0f1095c4,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+0debff8b3393bf7b9b5f,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+c9d99a13ba745195d4c2,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+7c5d81b5cf5aa1ae72f9,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+e69c451df28a9ca33a74,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+fdfc9942826bceaab3c8,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+f24d24e9ac2aa4245ae1,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+79ff5e41dd09bfc7bba1,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+8a75436091453623e142,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+daa354d30c94aa9f0a2e,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+b63135445f1a885f9623,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+780b5cda53908904ea61,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+9f6f0c7a3d4112f4b3b3,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+2a97499b18adb681085e,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+3e01bb275a5f4afa4fb3,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+f9bc61caabba124f5510,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+396ba821b28530083f49,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+4d012ffeec4c56c735e6,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+226ee40c7bed6a643ea3,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+2b2ad3b76d1587adaaab,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_015; source labels are hints
+9a0ff60378690f763d64,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_015; source labels are hints
+931d7ec73925ebfe8104,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_015; source labels are hints
+bc68edbae0add512c9f5,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_015; source labels are hints
+60358ff85f278489b41a,Dataset Subject-wise,train,push_up,bad,Mendeley train: provenance group mendeley:subject_015; source labels are hints
+92433fbce7fecf2d5dba,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_015; source labels are hints
+70da5d4f51adcf9353a9,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_015; source labels are hints
+9298db5529419febe483,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_015; source labels are hints
+4b107a5221eb5182a66a,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_015; source labels are hints
+6feae4525f338c6b591d,Dataset Subject-wise,train,push_up,good,Mendeley train: provenance group mendeley:subject_015; source labels are hints
+3776c103295b68abd12d,Dataset Subject-wise,val,push_up,bad,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+6af9bbeac9348af65d37,Dataset Subject-wise,val,push_up,bad,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+32bf4b2fcd44be7b1ecf,Dataset Subject-wise,val,push_up,bad,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+51a01108b6a3fbf49984,Dataset Subject-wise,val,push_up,bad,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+ab87f5daae0fdb5d7fe6,Dataset Subject-wise,val,push_up,bad,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+3eddad902f45b23a1bee,Dataset Subject-wise,val,push_up,good,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+2734ade17ca9fae5a2e9,Dataset Subject-wise,val,push_up,good,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+38b0d208c751005e76c2,Dataset Subject-wise,val,push_up,good,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+fe68d5e100724ae834fd,Dataset Subject-wise,val,push_up,good,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+55882dcfdb1a41fcadb2,Dataset Subject-wise,val,push_up,good,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+08b2bb63054c20caf804,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+43cc0e2a4f680ef0160e,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+039b5aa0e79c9b99c420,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+e1e8ed81e2cb9fba08d8,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+8de5f3b39a1154f3a32f,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+7b859ca300d492436bcc,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+cbb6f87ce7c4ce267872,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+30535edec9905a2a30e5,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+8aee05903947de3716ba,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+a15f52080f80d3637c9d,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+d8436e8efba0825f7e7b,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_006; source labels are hints
+ee2cf7f1314a287d093b,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_006; source labels are hints
+349843efc892fe4af30c,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_006; source labels are hints
+5aca22583b7ebb9d3228,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_006; source labels are hints
+935fd0a1746809f4f996,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_006; source labels are hints
+9c01a2516a8410ddc3c3,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_006; source labels are hints
+8334efc88b68f810de68,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_006; source labels are hints
+9fe786a8271eeb486da9,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_006; source labels are hints
+6f5f89e865efcc07f8f0,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_006; source labels are hints
+7c01fc960ebada978b70,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_006; source labels are hints
+c95455ecda2535e7906a,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+1f57d89eef143d54fd72,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+85cfc2e0122bb15218e0,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+9619ae1e05ab37a7918c,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+c3cac68725e90ecdd231,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+97c92733feaa34521e55,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+2e93af029d3b7ef2600b,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+fbd4e932788df0656ecf,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+138e406aa57b90d7999a,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+d4ca6f1f230fa38758ca,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+893be50369b6a37b403e,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+dad786b5ca34a64b7032,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+d15913041dc86e904308,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+5a42d37a820923e6ed55,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+efb6bf1b7b7416b7373a,Dataset Subject-wise,test,push_up,bad,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+3686363e890e08ae5b3c,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+8a81852efeccdea0c9ff,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+a17ea66b0668e4c3cce4,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+35b42d5705e34ab88421,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+e9fe0656d0218c5e7b39,Dataset Subject-wise,test,push_up,good,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+2bafe24faeb40917f7e7,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+27a161b912df24de8055,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+55c2bf3f2f416c303aab,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+e2cb437049fa8ee106db,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+51dc1d77792ca45dc42c,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+e6d8278677919baa550b,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+46166959e9933806e2f9,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+d7e9fae50e9be944c8e6,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+56435646e6894ebfe4ec,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+1af5a4491067344add55,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_001; source labels are hints
+cc97f22ef42273101b85,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+c5f1099ab2adc0796ba6,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+354dda8bac97609c306d,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+eecd61adfbeee9f5954e,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+36da1b5833afd9ffc68d,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+ca2a3b6a03558a164141,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+c99a22e2a6b28163b537,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+8c476d4ea1f8799f5a28,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+40e4855efae90963969c,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+6c65b9b39c02cd3f7dd6,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_012; source labels are hints
+47e5a51c0e05807b6725,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_013; source labels are hints
+e181a35fe4004f8b863b,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_013; source labels are hints
+25ce6d3947f88a40fe50,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_013; source labels are hints
+67d05892687030fd37b3,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_013; source labels are hints
+39cf67406c840b2a4ddc,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_013; source labels are hints
+bbf26b4462af0e919dea,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_013; source labels are hints
+d589d8010dd83bab0c97,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_013; source labels are hints
+e5e63d6c22a81fe6b87c,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_013; source labels are hints
+ff0f1f37019e427d80a8,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_013; source labels are hints
+2144118da7e5cf8403b9,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_013; source labels are hints
+910aa1968ee976e67362,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+25db1009a0b5a1ccff3c,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+6e1fea6291adfbcc4ca0,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+b34ca8a624a466b54702,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+85b1454c404d3a2bae30,Dataset Subject-wise,train,squat,bad,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+fd7843fadbb83c51fbaa,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+2018e609e4148b225879,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+735fd6c370bbe8f4ad67,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+11742b59e2dfafd17607,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+068e211463df17bdb0f2,Dataset Subject-wise,train,squat,good,Mendeley train: provenance group mendeley:subject_010; source labels are hints
+c776d94e99a1216345b3,Dataset Subject-wise,val,squat,bad,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+6a1637f2724f5603573e,Dataset Subject-wise,val,squat,bad,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+3c6351417eedb8739ced,Dataset Subject-wise,val,squat,bad,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+6ea512d0818ea9479ad2,Dataset Subject-wise,val,squat,bad,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+21cad50a01312c047443,Dataset Subject-wise,val,squat,bad,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+451f597803e4244b603f,Dataset Subject-wise,val,squat,good,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+5e38a0b0c202c434906e,Dataset Subject-wise,val,squat,good,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+709c0574bee4f3071383,Dataset Subject-wise,val,squat,good,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+d15c8edd0fa1a5cf7897,Dataset Subject-wise,val,squat,good,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+6797b0719de1635bf8ac,Dataset Subject-wise,val,squat,good,Mendeley val: provenance group mendeley:subject_009; source labels are hints
+8cb830b9676768ce9bcc,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+eb3246379b198bab78c1,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+5667b991109a413454b6,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+5970b89245da33093428,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+7f6ca3d4008620298c5f,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+9ad08e77e229a55eb48f,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+4f64b12e613685d39b6f,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+045a2241bef8668f06f8,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+df46c51f444b3434dc22,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+383a4b70112de2ad7804,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_004; source labels are hints
+11e2f388b902549a573e,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_019; source labels are hints
+d0e67785e7c517e08f06,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_019; source labels are hints
+48065aaa54f0e486abd6,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_019; source labels are hints
+9f12d7a52a02f518bc70,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_019; source labels are hints
+e3456145642a3207eef9,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_019; source labels are hints
+fcc3ee7a088ade92be55,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_019; source labels are hints
+b462bf8f23b207731c78,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_019; source labels are hints
+a6f77cbed37719f30044,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_019; source labels are hints
+0ebdbdc7de49a1472b0a,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_019; source labels are hints
+c6b6e3578c478d875500,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_019; source labels are hints
+71fef23b1c88a3334560,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+4fe6d60730e191cc6c27,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+d50701d5ed53298fc16b,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+9d2451f9dfb3746e8e87,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+8b06cb3eaa7ba5dbbb0d,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+ecf21ad74445c4f036f7,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+155a96718ac94cfa9acd,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+4317777d7f1b2c94f461,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+1e159f9e3a0b6ca6fe89,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+daa4f54d50239af90b35,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_005; source labels are hints
+cfbb4434962a53ea7cbe,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+8a51dd291e7dcba166b9,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+b9355e1cd6a23d73cbaa,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+90db6651c0f05c4df4a7,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+efbe6f7a0c5e0853fb30,Dataset Subject-wise,test,squat,bad,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+5f34d11a6f2f609df804,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+9b84350096014235a31b,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+b2390ab8783a13bb7580,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+ae5dc2129b795c7436c1,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+55dedcfb0dfc8d78cbe1,Dataset Subject-wise,test,squat,good,Mendeley test: provenance group mendeley:subject_008; source labels are hints
+3afc8f0604af5f4c67c0,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+4618a8f94579be3ab27e,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+98106455e92a94fcc5d9,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+cd4201ca34e8ffad360b,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+eba6e40be703816692ac,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+cda7950bb28b55675e83,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+5061eb65a0bc0f85bcd2,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+11f5291eabb1d2f5c673,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+4cc74ce861f3bedd98ac,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+46677ee1a9337ef96ea9,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+e008c415c4ee9eca73ff,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+7a4ed0287b7d2dd95d48,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+1019657408541bf93912,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+1d6c4e7b0294ee755508,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+8851a6e1b033267e56ba,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+a3effcf91c1dae86914d,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+9c2fac4fda4bc8d2f4df,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+60c8426ba61dc09ef81a,Plank_detection,train,plank,Good-plank,Plank recognition seed only; origin is one unknown group
+dc5d56ed916efd9b74a4,Plank_detection,train,plank,Too-high-plank,Plank recognition seed only; origin is one unknown group
+e079fa5316d4d02e3082,Plank_detection,train,plank,Too-high-plank,Plank recognition seed only; origin is one unknown group
+e8244a037e0528cd3c28,Plank_detection,train,plank,Too-high-plank,Plank recognition seed only; origin is one unknown group
+f72320dd1989c444a89c,Plank_detection,train,plank,Too-high-plank,Plank recognition seed only; origin is one unknown group
+64d5a24ecf3c1058e7ca,Plank_detection,train,plank,Too-low-plank,Plank recognition seed only; origin is one unknown group
+d009b78113327b2536d6,Plank_detection,train,plank,Too-low-plank,Plank recognition seed only; origin is one unknown group
+9642cab5ec85fdccb1de,Plank_detection,train,plank,Too-low-plank,Plank recognition seed only; origin is one unknown group
+3793aa458823cd8b2b48,Plank_detection,train,plank,Too-high-plank,Plank recognition seed only; origin is one unknown group
+d1089cf6b143b30b8276,Plank_detection,train,plank,Too-high-plank,Plank recognition seed only; origin is one unknown group
+917eec1d7cdb15b42890,Plank_detection,train,plank,Too-low-plank,Plank recognition seed only; origin is one unknown group
+6e2550fa09891367cd76,Plank_detection,train,plank,Too-high-plank,Plank recognition seed only; origin is one unknown group
+570f5825caec5d119c35,Plank_detection,train,plank,Too-high-plank,Plank recognition seed only; origin is one unknown group
+7f87c204afef40ff843b,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+3b38200b08c59fdc82ac,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+05d884a0cdc96f9ca2aa,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+3d86255ecb845b9b65ad,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+80455e561b9d1259fe29,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+494d7ae0121f83346999,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+90e63d2fe4e053742e8a,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+f1a79b5b46f27576e9b0,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+edfdd3df8a19cd279b16,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+b0946d92f7d80364a33e,hmdb51,test,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+46de511c4d75a9f91689,hmdb51,test,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+5d5c1a9488ee5a6cb6c4,hmdb51,test,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+71a1989ddb7e164a8c41,hmdb51,test,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+3cbe216a9394e44cca66,hmdb51,test,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+925e6f8d32da90b7632a,hmdb51,test,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+e8825bd96ec5996c565e,hmdb51,test,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+d16b4205b3ec65c37052,hmdb51,test,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+bd9e54d3fe17b453a39b,hmdb51,test,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+8621a2f5bff358aeeca2,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+865b6919016aa1db40ec,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+b57fdd0fdae5ca39167c,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+78cb3d5510460704a18f,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+f9d150b18a25c4c50ac4,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+f16bbbd3f1c1b0b99136,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+e169a3ea04861ad14953,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+e3b60cbaaee0360a8d96,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+282674e502a263553b6b,hmdb51,train,sit_up,activity_only,Activity/seed candidate; form requires fresh review and provenance gate
+75840af19444bbe2e247,Mountain_Climbers_Pose_Detection,train,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+368e05df8f4dd60ab983,Mountain_Climbers_Pose_Detection,train,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+c5bb45b39e9d11222c74,Mountain_Climbers_Pose_Detection,train,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+ad88aae295d7edf2691b,Mountain_Climbers_Pose_Detection,train,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+965e0d38aad161034088,Mountain_Climbers_Pose_Detection,train,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+28335551d5c57a5a8719,Mountain_Climbers_Pose_Detection,train,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+6a1a75d693e1478fdbd8,Mountain_Climbers_Pose_Detection,train,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+8f9f996f4fc92d04ef59,Mountain_Climbers_Pose_Detection,train,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+5a94023d667ecb5db60e,Mountain_Climbers_Pose_Detection,train,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+df9bc0231578024341d0,Mountain_Climbers_Pose_Detection,train,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+fb7b8edcf052be5ecc1c,Mountain_Climbers_Pose_Detection,train,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+1e14caf8fb65049bed6b,Mountain_Climbers_Pose_Detection,train,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+5b2c34d40ec87c4a856a,Mountain_Climbers_Pose_Detection,train,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+ee43fba54bf4c75cba02,Mountain_Climbers_Pose_Detection,train,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+99d3e53e3c647613e3b1,Mountain_Climbers_Pose_Detection,train,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+4fcfc23868956f9542ce,Mountain_Climbers_Pose_Detection,train,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+ee8a805c6185ba9a9079,Mountain_Climbers_Pose_Detection,train,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+280ec5f1af4de5513222,Mountain_Climbers_Pose_Detection,train,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+9a71677bb8596a653be3,Mountain_Climbers_Pose_Detection,train,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+df9b8d6246496e52ef9f,Mountain_Climbers_Pose_Detection,train,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+5de7837d7b0a3eaa5cce,Mountain_Climbers_Pose_Detection,test,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+02c3f1d696926ce49dd1,Mountain_Climbers_Pose_Detection,test,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+e98cdff7565d3ff0c591,Mountain_Climbers_Pose_Detection,test,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+335414a67f3712bd89da,Mountain_Climbers_Pose_Detection,test,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+b709b006ce7c8f74a37e,Mountain_Climbers_Pose_Detection,test,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+4720be651306729d1c27,Mountain_Climbers_Pose_Detection,test,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+44bce72535d0ebea71a3,Mountain_Climbers_Pose_Detection,test,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+9b1b3688e5e64ea15826,Mountain_Climbers_Pose_Detection,test,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+2a0d394490190c0be3c0,Mountain_Climbers_Pose_Detection,test,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+500096eface97865922a,Mountain_Climbers_Pose_Detection,test,mountain_climber,incorrect,Activity/seed candidate; form requires fresh review and provenance gate
+7dc63216bbc938bbe218,Mountain_Climbers_Pose_Detection,test,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+d7a8c4359d9c8e9112ab,Mountain_Climbers_Pose_Detection,test,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+86207aaf6e7d37d32715,Mountain_Climbers_Pose_Detection,test,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+416242dd5f02494555d7,Mountain_Climbers_Pose_Detection,test,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+785313d820687f3b5dfb,Mountain_Climbers_Pose_Detection,test,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+dd1f09893a7857aa7da3,Mountain_Climbers_Pose_Detection,test,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+3efd02de28ac0da48554,Mountain_Climbers_Pose_Detection,test,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+fb0a1e2cc7077c2fd26a,Mountain_Climbers_Pose_Detection,test,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+411424a65035cd4b05fe,Mountain_Climbers_Pose_Detection,test,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate
+b04ddfc8d7bb42be63f1,Mountain_Climbers_Pose_Detection,test,mountain_climber,correct,Activity/seed candidate; form requires fresh review and provenance gate

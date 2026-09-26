@@ -1,0 +1,159 @@
+{
+  "candidates": 552,
+  "review_state": {
+    "pending": 552
+  },
+  "candidate_by_exercise": {
+    "push_up": 220,
+    "squat": 220,
+    "plank": 45,
+    "sit_up": 27,
+    "mountain_climber": 40
+  },
+  "proposed_boxes": 471,
+  "boxes_needing_manual_draw": {
+    "push_up": 28,
+    "squat": 53
+  },
+  "reviewed_by_exercise": {},
+  "form_train_gate": {
+    "plank": {
+      "conditions": {
+        "correct": {
+          "frames": 0,
+          "groups": 0
+        },
+        "incorrect": {
+          "frames": 0,
+          "groups": 0
+        }
+      },
+      "enabled": false
+    },
+    "mountain_climber": {
+      "conditions": {
+        "correct": {
+          "frames": 0,
+          "groups": 0
+        },
+        "incorrect": {
+          "frames": 0,
+          "groups": 0
+        }
+      },
+      "enabled": false
+    },
+    "push_up": {
+      "conditions": {
+        "correct": {
+          "frames": 0,
+          "groups": 0
+        },
+        "incorrect": {
+          "frames": 0,
+          "groups": 0
+        }
+      },
+      "enabled": false
+    },
+    "sit_up": {
+      "conditions": {
+        "correct": {
+          "frames": 0,
+          "groups": 0
+        },
+        "incorrect": {
+          "frames": 0,
+          "groups": 0
+        }
+      },
+      "enabled": false
+    },
+    "squat": {
+      "conditions": {
+        "correct": {
+          "frames": 0,
+          "groups": 0
+        },
+        "incorrect": {
+          "frames": 0,
+          "groups": 0
+        }
+      },
+      "enabled": false
+    }
+  },
+  "form_test_gate": {
+    "plank": {
+      "conditions": {
+        "correct": {
+          "frames": 0,
+          "groups": 0
+        },
+        "incorrect": {
+          "frames": 0,
+          "groups": 0
+        }
+      },
+      "reportable": false
+    },
+    "mountain_climber": {
+      "conditions": {
+        "correct": {
+          "frames": 0,
+          "groups": 0
+        },
+        "incorrect": {
+          "frames": 0,
+          "groups": 0
+        }
+      },
+      "reportable": false
+    },
+    "push_up": {
+      "conditions": {
+        "correct": {
+          "frames": 0,
+          "groups": 0
+        },
+        "incorrect": {
+          "frames": 0,
+          "groups": 0
+        }
+      },
+      "reportable": false
+    },
+    "sit_up": {
+      "conditions": {
+        "correct": {
+          "frames": 0,
+          "groups": 0
+        },
+        "incorrect": {
+          "frames": 0,
+          "groups": 0
+        }
+      },
+      "reportable": false
+    },
+    "squat": {
+      "conditions": {
+        "correct": {
+          "frames": 0,
+          "groups": 0
+        },
+        "incorrect": {
+          "frames": 0,
+          "groups": 0
+        }
+      },
+      "reportable": false
+    }
+  },
+  "models": {
+    "mlp": false,
+    "yolo_exercise": false,
+    "yolo_form": false
+  },
+  "pose_task": true
+}

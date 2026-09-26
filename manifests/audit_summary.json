@@ -1,0 +1,1487 @@
+{
+  "total_files": 14655,
+  "sources": {
+    "Dataset Subject-wise": {
+      "files": 1042,
+      "bytes": 3116315639,
+      "video": 1042
+    },
+    "FitAQA": {
+      "files": 8,
+      "bytes": 1439962,
+      "reference_or_archive": 5,
+      "image": 1,
+      "annotation_parquet": 2
+    },
+    "hmdb51": {
+      "files": 884,
+      "bytes": 8419995759,
+      "reference_or_archive": 468,
+      "video": 416
+    },
+    "HSiPu2": {
+      "files": 8048,
+      "bytes": 67220663,
+      "keypoint_csv": 8044,
+      "reference_or_archive": 4
+    },
+    "Mountain_Climbers_Pose_Detection": {
+      "files": 623,
+      "bytes": 9191573,
+      "reference_or_archive": 313,
+      "image": 310
+    },
+    "Plank_detection": {
+      "files": 243,
+      "bytes": 6691845,
+      "reference_or_archive": 123,
+      "image": 120
+    },
+    "README.md": {
+      "files": 1,
+      "bytes": 3157,
+      "reference_or_archive": 1
+    },
+    "Squat_Dataset_Zenodo": {
+      "files": 3806,
+      "bytes": 828497184,
+      "image": 3806
+    }
+  },
+  "exact_duplicate_sets": [
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_003\\squat\\bad\\diagonal\\subject_003_squat_bad_diagonal.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_003\\squat\\good\\diagonal\\subject_003_squat_good_diagonal.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_005\\shoulder\\bad\\side\\subject_005_shoulder_bad_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_006\\tricep\\bad\\side\\subject_006_tricep_bad_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_005\\shoulder\\good\\side\\subject_005_shoulder_good_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_006\\tricep\\good\\side\\subject_006_tricep_good_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_005\\squat\\bad\\side\\subject_005_squat_bad_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_006\\squat\\bad\\side\\subject_006_squat_bad_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_005\\squat\\good\\side\\subject_005_squat_good_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_006\\squat\\good\\side\\subject_006_squat_good_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_007\\back\\bad\\diagonal\\subject_007_back_bad_diagonal.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_007\\squat\\good\\diagonal\\subject_007_squat_good_diagonal.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_010\\push_up\\good\\side\\subject_010_push_up_good_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_013\\push_up\\good\\side\\subject_013_push_up_good_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_014\\push_up\\bad\\side\\subject_014_push_up_bad_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_020\\push_up\\bad\\side\\subject_020_push_up_bad_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_015\\bicep_curl\\bad\\side\\subject_015_bicep_curl_bad_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_026\\bicep_curl\\bad\\side\\subject_026_bicep_curl_bad_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_015\\bicep_curl\\good\\side\\subject_015_bicep_curl_good_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_026\\bicep_curl\\good\\side\\subject_026_bicep_curl_good_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_015\\shoulder\\bad\\side\\subject_015_shoulder_bad_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_015\\tricep\\bad\\side\\subject_015_tricep_bad_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_015\\squat\\good\\side\\subject_015_squat_good_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_026\\squat\\bad\\side\\subject_026_squat_bad_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_016\\shoulder\\bad\\side\\subject_016_shoulder_bad_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_016\\shoulder\\good\\side\\subject_016_shoulder_good_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_017\\bicep_curl\\bad\\diagonal\\subject_017_bicep_curl_bad_diagonal.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_017\\bicep_curl\\good\\diagonal\\subject_017_bicep_curl_good_diagonal.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_019\\back\\bad\\diagonal\\subject_019_back_bad_diagonal.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_020\\back\\bad\\diagonal\\subject_020_back_bad_diagonal.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_019\\push_up\\bad\\side\\subject_019_push_up_bad_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_019\\push_up\\good\\side\\subject_019_push_up_good_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_020\\shoulder\\bad\\side\\subject_020_shoulder_bad_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_020\\tricep\\bad\\side\\subject_020_tricep_bad_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_020\\shoulder\\good\\side\\subject_020_shoulder_good_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_020\\tricep\\good\\side\\subject_020_tricep_good_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_021\\bicep_curl\\bad\\side\\subject_021_bicep_curl_bad_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_021\\bicep_curl\\good\\side\\subject_021_bicep_curl_good_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_023\\abs\\bad\\diagonal\\subject_023_abs_bad_diagonal.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_023\\abs\\good\\diagonal\\subject_023_abs_good_diagonal.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_023\\abs\\bad\\front\\subject_023_abs_bad_front.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_023\\abs\\good\\front\\subject_023_abs_good_front.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_023\\back\\bad\\diagonal\\subject_023_back_bad_diagonal.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_023\\back\\bad\\side\\subject_023_back_bad_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_023\\back\\good\\diagonal\\subject_023_back_good_diagonal.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_023\\back\\bad\\front\\subject_023_back_bad_front.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_023\\back\\good\\front\\subject_023_back_good_front.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_023\\bicep_curl\\bad\\front\\subject_023_bicep_curl_bad_front.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_023\\bicep_curl\\good\\front\\subject_023_bicep_curl_good_front.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_023\\bicep_curl\\bad\\side\\subject_023_bicep_curl_bad_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_023\\bicep_curl\\good\\side\\subject_023_bicep_curl_good_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_023\\push_up\\bad\\front\\subject_023_push_up_bad_front.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_023\\push_up\\good\\front\\subject_023_push_up_good_front.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_023\\shoulder\\bad\\diagonal\\subject_023_shoulder_bad_diagonal.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_023\\shoulder\\good\\front\\subject_023_shoulder_good_front.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_023\\shoulder\\bad\\side\\subject_023_shoulder_bad_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_023\\shoulder\\good\\side\\subject_023_shoulder_good_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_023\\squat\\bad\\side\\subject_023_squat_bad_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_023\\squat\\good\\side\\subject_023_squat_good_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_023\\tricep\\bad\\diagonal\\subject_023_tricep_bad_diagonal.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_023\\tricep\\good\\diagonal\\subject_023_tricep_good_diagonal.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_024\\abs\\bad\\front\\subject_024_abs_bad_front.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_024\\abs\\good\\front\\subject_024_abs_good_front.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_024\\bicep_curl\\bad\\side\\subject_024_bicep_curl_bad_side.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_024\\bicep_curl\\good\\side\\subject_024_bicep_curl_good_side.mp4"
+    ],
+    [
+      "data\\sources\\Dataset Subject-wise\\subject_024\\tricep\\bad\\front\\subject_024_tricep_bad_front.mp4",
+      "data\\sources\\Dataset Subject-wise\\subject_024\\tricep\\good\\front\\subject_024_tricep_good_front.mp4"
+    ]
+  ],
+  "invalid_box_images": [],
+  "plank_original_stems": 52,
+  "plank_derivative_stems": 34,
+  "counts_by_source_label": [
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "abs",
+      "label": "bad",
+      "view": "diagonal",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "abs",
+      "label": "bad",
+      "view": "front",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "abs",
+      "label": "bad",
+      "view": "side",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "abs",
+      "label": "good",
+      "view": "diagonal",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "abs",
+      "label": "good",
+      "view": "front",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "abs",
+      "label": "good",
+      "view": "side",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "back",
+      "label": "bad",
+      "view": "diagonal",
+      "count": 24
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "back",
+      "label": "bad",
+      "view": "front",
+      "count": 24
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "back",
+      "label": "bad",
+      "view": "side",
+      "count": 24
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "back",
+      "label": "good",
+      "view": "diagonal",
+      "count": 24
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "back",
+      "label": "good",
+      "view": "front",
+      "count": 24
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "back",
+      "label": "good",
+      "view": "side",
+      "count": 24
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "bicep_curl",
+      "label": "bad",
+      "view": "diagonal",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "bicep_curl",
+      "label": "bad",
+      "view": "front",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "bicep_curl",
+      "label": "bad",
+      "view": "side",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "bicep_curl",
+      "label": "good",
+      "view": "diagonal",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "bicep_curl",
+      "label": "good",
+      "view": "front",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "bicep_curl",
+      "label": "good",
+      "view": "side",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "push_up",
+      "label": "bad",
+      "view": "diagonal",
+      "count": 24
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "push_up",
+      "label": "bad",
+      "view": "front",
+      "count": 24
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "push_up",
+      "label": "bad",
+      "view": "side",
+      "count": 24
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "push_up",
+      "label": "good",
+      "view": "diagonal",
+      "count": 24
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "push_up",
+      "label": "good",
+      "view": "front",
+      "count": 24
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "push_up",
+      "label": "good",
+      "view": "side",
+      "count": 24
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "shoulder",
+      "label": "bad",
+      "view": "diagonal",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "shoulder",
+      "label": "bad",
+      "view": "front",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "shoulder",
+      "label": "bad",
+      "view": "side",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "shoulder",
+      "label": "good",
+      "view": "diagonal",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "shoulder",
+      "label": "good",
+      "view": "front",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "shoulder",
+      "label": "good",
+      "view": "side",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "squat",
+      "label": "bad",
+      "view": "diagonal",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "squat",
+      "label": "bad",
+      "view": "front",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "squat",
+      "label": "bad",
+      "view": "side",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "squat",
+      "label": "good",
+      "view": "diagonal",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "squat",
+      "label": "good",
+      "view": "front",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "squat",
+      "label": "good",
+      "view": "side",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "tricep",
+      "label": "bad",
+      "view": "diagonal",
+      "count": 26
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "tricep",
+      "label": "bad",
+      "view": "front",
+      "count": 26
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "tricep",
+      "label": "bad",
+      "view": "side",
+      "count": 25
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "tricep",
+      "label": "good",
+      "view": "diagonal",
+      "count": 26
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "tricep",
+      "label": "good",
+      "view": "front",
+      "count": 26
+    },
+    {
+      "source": "Dataset Subject-wise",
+      "exercise": "tricep",
+      "label": "good",
+      "view": "side",
+      "count": 25
+    },
+    {
+      "source": "FitAQA",
+      "exercise": "",
+      "label": "",
+      "view": "",
+      "count": 3
+    },
+    {
+      "source": "hmdb51",
+      "exercise": "situp",
+      "label": "activity_only",
+      "view": "",
+      "count": 416
+    },
+    {
+      "source": "HSiPu2",
+      "exercise": "",
+      "label": "not_standard",
+      "view": "",
+      "count": 6195
+    },
+    {
+      "source": "HSiPu2",
+      "exercise": "",
+      "label": "standard",
+      "view": "",
+      "count": 1849
+    },
+    {
+      "source": "Mountain_Climbers_Pose_Detection",
+      "exercise": "mountain_climber",
+      "label": "incorrect",
+      "view": "",
+      "count": 164
+    },
+    {
+      "source": "Mountain_Climbers_Pose_Detection",
+      "exercise": "mountain_climber",
+      "label": "correct",
+      "view": "",
+      "count": 146
+    },
+    {
+      "source": "Plank_detection",
+      "exercise": "plank",
+      "label": "Good-plank",
+      "view": "",
+      "count": 46
+    },
+    {
+      "source": "Plank_detection",
+      "exercise": "plank",
+      "label": "Too-high-plank",
+      "view": "",
+      "count": 10
+    },
+    {
+      "source": "Plank_detection",
+      "exercise": "plank",
+      "label": "Good-plank;Too-high-plank",
+      "view": "",
+      "count": 22
+    },
+    {
+      "source": "Plank_detection",
+      "exercise": "plank",
+      "label": "Good-plank;Too-high-plank;Too-low-plank",
+      "view": "",
+      "count": 16
+    },
+    {
+      "source": "Plank_detection",
+      "exercise": "plank",
+      "label": "Too-low-plank",
+      "view": "",
+      "count": 6
+    },
+    {
+      "source": "Plank_detection",
+      "exercise": "plank",
+      "label": "Too-high-plank;Too-low-plank",
+      "view": "",
+      "count": 1
+    },
+    {
+      "source": "Plank_detection",
+      "exercise": "plank",
+      "label": "Good-plank;Too-low-plank",
+      "view": "",
+      "count": 19
+    },
+    {
+      "source": "Squat_Dataset_Zenodo",
+      "exercise": "squat",
+      "label": "bad back",
+      "view": "",
+      "count": 1322
+    },
+    {
+      "source": "Squat_Dataset_Zenodo",
+      "exercise": "squat",
+      "label": "bad heel",
+      "view": "",
+      "count": 1173
+    },
+    {
+      "source": "Squat_Dataset_Zenodo",
+      "exercise": "squat",
+      "label": "good",
+      "view": "",
+      "count": 1311
+    }
+  ],
+  "video_metadata": {
+    "mendeley_side": {
+      "push_up": [
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_001\\push_up\\bad\\side\\subject_001_push_up_bad_side.mp4",
+          "subject": "subject_001",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 25.2
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_001\\push_up\\good\\side\\subject_001_push_up_good_side.mp4",
+          "subject": "subject_001",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 28.933
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_002\\push_up\\bad\\side\\subject_002_push_up_bad_side.mp4",
+          "subject": "subject_002",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 31.733
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_002\\push_up\\good\\side\\subject_002_push_up_good_side.mp4",
+          "subject": "subject_002",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 31.2
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_003\\push_up\\bad\\side\\subject_003_push_up_bad_side.mp4",
+          "subject": "subject_003",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 30.533
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_003\\push_up\\good\\side\\subject_003_push_up_good_side.mp4",
+          "subject": "subject_003",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 30.0
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_004\\push_up\\bad\\side\\subject_004_push_up_bad_side.mp4",
+          "subject": "subject_004",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 27.467
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_004\\push_up\\good\\side\\subject_004_push_up_good_side.mp4",
+          "subject": "subject_004",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 20.4
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_005\\push_up\\bad\\side\\subject_005_push_up_bad_side.mp4",
+          "subject": "subject_005",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 19.933
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_005\\push_up\\good\\side\\subject_005_push_up_good_side.mp4",
+          "subject": "subject_005",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 19.467
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_006\\push_up\\bad\\side\\subject_006_push_up_bad_side.mp4",
+          "subject": "subject_006",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 18.133
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_006\\push_up\\good\\side\\subject_006_push_up_good_side.mp4",
+          "subject": "subject_006",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 21.867
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_007\\push_up\\bad\\side\\subject_007_push_up_bad_side.mp4",
+          "subject": "subject_007",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 18.733
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_007\\push_up\\good\\side\\subject_007_push_up_good_side.mp4",
+          "subject": "subject_007",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 25.067
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_008\\push_up\\bad\\side\\subject_008_push_up_bad_side.mp4",
+          "subject": "subject_008",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 17.067
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_008\\push_up\\good\\side\\subject_008_push_up_good_side.mp4",
+          "subject": "subject_008",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 19.667
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_009\\push_up\\bad\\side\\subject_009_push_up_bad_side.mp4",
+          "subject": "subject_009",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 15.867
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_009\\push_up\\good\\side\\subject_009_push_up_good_side.mp4",
+          "subject": "subject_009",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 15.6
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_010\\push_up\\bad\\side\\subject_010_push_up_bad_side.mp4",
+          "subject": "subject_010",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 21.467
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_010\\push_up\\good\\side\\subject_010_push_up_good_side.mp4",
+          "subject": "subject_010",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 31.2
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_011\\push_up\\bad\\side\\subject_011_push_up_bad_side.mp4",
+          "subject": "subject_011",
+          "label": "bad",
+          "width": 960,
+          "height": 540,
+          "fps": 15.0,
+          "duration_s": 19.933
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_011\\push_up\\good\\side\\subject_011_push_up_good_side.mp4",
+          "subject": "subject_011",
+          "label": "good",
+          "width": 960,
+          "height": 540,
+          "fps": 15.0,
+          "duration_s": 12.267
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_012\\push_up\\bad\\side\\subject_012_push_up_bad_side.mp4",
+          "subject": "subject_012",
+          "label": "bad",
+          "width": 960,
+          "height": 540,
+          "fps": 15.0,
+          "duration_s": 24.933
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_012\\push_up\\good\\side\\subject_012_push_up_good_side.mp4",
+          "subject": "subject_012",
+          "label": "good",
+          "width": 960,
+          "height": 540,
+          "fps": 15.0,
+          "duration_s": 23.467
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_013\\push_up\\bad\\side\\subject_013_push_up_bad_side.mp4",
+          "subject": "subject_013",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 30.533
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_013\\push_up\\good\\side\\subject_013_push_up_good_side.mp4",
+          "subject": "subject_013",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 31.2
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_014\\push_up\\bad\\side\\subject_014_push_up_bad_side.mp4",
+          "subject": "subject_014",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 16.867
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_014\\push_up\\good\\side\\subject_014_push_up_good_side.mp4",
+          "subject": "subject_014",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 22.0
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_015\\push_up\\bad\\side\\subject_015_push_up_bad_side.mp4",
+          "subject": "subject_015",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 13.667
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_015\\push_up\\good\\side\\subject_015_push_up_good_side.mp4",
+          "subject": "subject_015",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 30.667
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_016\\push_up\\bad\\side\\subject_016_push_up_bad_side.mp4",
+          "subject": "subject_016",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 27.0
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_016\\push_up\\good\\side\\subject_016_push_up_good_side.mp4",
+          "subject": "subject_016",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 25.467
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_017\\push_up\\bad\\side\\subject_017_push_up_bad_side.mp4",
+          "subject": "subject_017",
+          "label": "bad",
+          "width": 358,
+          "height": 636,
+          "fps": 15.0,
+          "duration_s": 15.133
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_017\\push_up\\good\\side\\subject_017_push_up_good_side.mp4",
+          "subject": "subject_017",
+          "label": "good",
+          "width": 358,
+          "height": 636,
+          "fps": 15.0,
+          "duration_s": 10.533
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_018\\push_up\\bad\\side\\subject_018_push_up_bad_side.mp4",
+          "subject": "subject_018",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 15.667
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_018\\push_up\\good\\side\\subject_018_push_up_good_side.mp4",
+          "subject": "subject_018",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 16.6
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_019\\push_up\\bad\\side\\subject_019_push_up_bad_side.mp4",
+          "subject": "subject_019",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 6.4
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_019\\push_up\\good\\side\\subject_019_push_up_good_side.mp4",
+          "subject": "subject_019",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 6.4
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_020\\push_up\\bad\\side\\subject_020_push_up_bad_side.mp4",
+          "subject": "subject_020",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 16.867
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_020\\push_up\\good\\side\\subject_020_push_up_good_side.mp4",
+          "subject": "subject_020",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 17.733
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_021\\push_up\\bad\\side\\subject_021_push_up_bad_side.mp4",
+          "subject": "subject_021",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 15.4
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_021\\push_up\\good\\side\\subject_021_push_up_good_side.mp4",
+          "subject": "subject_021",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 15.4
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_022\\push_up\\bad\\side\\subject_022_push_up_bad_side.mp4",
+          "subject": "subject_022",
+          "label": "bad",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 16.733
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_022\\push_up\\good\\side\\subject_022_push_up_good_side.mp4",
+          "subject": "subject_022",
+          "label": "good",
+          "width": 1440,
+          "height": 810,
+          "fps": 15.0,
+          "duration_s": 18.267
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_023\\push_up\\bad\\side\\subject_023_push_up_bad_side.mp4",
+          "subject": "subject_023",
+          "label": "bad",
+          "width": 636,
+          "height": 360,
+          "fps": 15.0,
+          "duration_s": 13.8
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_023\\push_up\\good\\side\\subject_023_push_up_good_side.mp4",
+          "subject": "subject_023",
+          "label": "good",
+          "width": 636,
+          "height": 360,
+          "fps": 15.0,
+          "duration_s": 19.333
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_024\\push_up\\bad\\side\\subject_024_push_up_bad_side.mp4",
+          "subject": "subject_024",
+          "label": "bad",
+          "width": 636,
+          "height": 360,
+          "fps": 15.0,
+          "duration_s": 21.267
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_024\\push_up\\good\\side\\subject_024_push_up_good_side.mp4",
+          "subject": "subject_024",
+          "label": "good",
+          "width": 636,
+          "height": 360,
+          "fps": 15.0,
+          "duration_s": 19.333
+        }
+      ],
+      "squat": [
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_001\\squat\\bad\\side\\subject_001_squat_bad_side.mp4",
+          "subject": "subject_001",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 32.333
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_001\\squat\\good\\side\\subject_001_squat_good_side.mp4",
+          "subject": "subject_001",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 31.933
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_002\\squat\\bad\\side\\subject_002_squat_bad_side.mp4",
+          "subject": "subject_002",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 31.933
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_002\\squat\\good\\side\\subject_002_squat_good_side.mp4",
+          "subject": "subject_002",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 31.133
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_003\\squat\\bad\\side\\subject_003_squat_bad_side.mp4",
+          "subject": "subject_003",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 31.333
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_003\\squat\\good\\side\\subject_003_squat_good_side.mp4",
+          "subject": "subject_003",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 30.533
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_004\\squat\\bad\\side\\subject_004_squat_bad_side.mp4",
+          "subject": "subject_004",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 32.067
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_004\\squat\\good\\side\\subject_004_squat_good_side.mp4",
+          "subject": "subject_004",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 31.733
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_005\\squat\\bad\\side\\subject_005_squat_bad_side.mp4",
+          "subject": "subject_005",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 30.8
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_005\\squat\\good\\side\\subject_005_squat_good_side.mp4",
+          "subject": "subject_005",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 30.867
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_006\\squat\\bad\\side\\subject_006_squat_bad_side.mp4",
+          "subject": "subject_006",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 30.8
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_006\\squat\\good\\side\\subject_006_squat_good_side.mp4",
+          "subject": "subject_006",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 30.867
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_007\\squat\\bad\\side\\subject_007_squat_bad_side.mp4",
+          "subject": "subject_007",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 35.467
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_007\\squat\\good\\side\\subject_007_squat_good_side.mp4",
+          "subject": "subject_007",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 32.0
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_008\\squat\\bad\\side\\subject_008_squat_bad_side.mp4",
+          "subject": "subject_008",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 33.067
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_008\\squat\\good\\side\\subject_008_squat_good_side.mp4",
+          "subject": "subject_008",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 31.4
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_009\\squat\\bad\\side\\subject_009_squat_bad_side.mp4",
+          "subject": "subject_009",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 29.8
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_009\\squat\\good\\side\\subject_009_squat_good_side.mp4",
+          "subject": "subject_009",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 30.733
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_010\\squat\\bad\\side\\subject_010_squat_bad_side.mp4",
+          "subject": "subject_010",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 31.267
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_010\\squat\\good\\side\\subject_010_squat_good_side.mp4",
+          "subject": "subject_010",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 29.733
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_011\\squat\\bad\\side\\subject_011_squat_bad_side.mp4",
+          "subject": "subject_011",
+          "label": "bad",
+          "width": 540,
+          "height": 960,
+          "fps": 15.0,
+          "duration_s": 29.0
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_011\\squat\\good\\side\\subject_011_squat_good_side.mp4",
+          "subject": "subject_011",
+          "label": "good",
+          "width": 540,
+          "height": 960,
+          "fps": 15.0,
+          "duration_s": 32.133
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_012\\squat\\bad\\side\\subject_012_squat_bad_side.mp4",
+          "subject": "subject_012",
+          "label": "bad",
+          "width": 358,
+          "height": 636,
+          "fps": 15.0,
+          "duration_s": 30.6
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_012\\squat\\good\\side\\subject_012_squat_good_side.mp4",
+          "subject": "subject_012",
+          "label": "good",
+          "width": 358,
+          "height": 636,
+          "fps": 15.0,
+          "duration_s": 30.067
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_013\\squat\\bad\\side\\subject_013_squat_bad_side.mp4",
+          "subject": "subject_013",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 31.333
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_013\\squat\\good\\side\\subject_013_squat_good_side.mp4",
+          "subject": "subject_013",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 31.2
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_014\\squat\\bad\\side\\subject_014_squat_bad_side.mp4",
+          "subject": "subject_014",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 30.4
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_014\\squat\\good\\side\\subject_014_squat_good_side.mp4",
+          "subject": "subject_014",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 31.333
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_015\\squat\\bad\\side\\subject_015_squat_bad_side.mp4",
+          "subject": "subject_015",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 19.8
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_015\\squat\\good\\side\\subject_015_squat_good_side.mp4",
+          "subject": "subject_015",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 30.8
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_016\\squat\\bad\\side\\subject_016_squat_bad_side.mp4",
+          "subject": "subject_016",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 29.933
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_016\\squat\\good\\side\\subject_016_squat_good_side.mp4",
+          "subject": "subject_016",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 30.067
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_017\\squat\\bad\\side\\subject_017_squat_bad_side.mp4",
+          "subject": "subject_017",
+          "label": "bad",
+          "width": 358,
+          "height": 636,
+          "fps": 15.0,
+          "duration_s": 31.333
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_017\\squat\\good\\side\\subject_017_squat_good_side.mp4",
+          "subject": "subject_017",
+          "label": "good",
+          "width": 358,
+          "height": 636,
+          "fps": 15.0,
+          "duration_s": 30.733
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_018\\squat\\bad\\side\\subject_018_squat_bad_side.mp4",
+          "subject": "subject_018",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 29.067
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_018\\squat\\good\\side\\subject_018_squat_good_side.mp4",
+          "subject": "subject_018",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 31.067
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_019\\squat\\bad\\side\\subject_019_squat_bad_side.mp4",
+          "subject": "subject_019",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 16.667
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_019\\squat\\good\\side\\subject_019_squat_good_side.mp4",
+          "subject": "subject_019",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 17.533
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_020\\squat\\bad\\side\\subject_020_squat_bad_side.mp4",
+          "subject": "subject_020",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 25.667
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_020\\squat\\good\\side\\subject_020_squat_good_side.mp4",
+          "subject": "subject_020",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 30.733
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_021\\squat\\bad\\side\\subject_021_squat_bad_side.mp4",
+          "subject": "subject_021",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 30.267
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_021\\squat\\good\\side\\subject_021_squat_good_side.mp4",
+          "subject": "subject_021",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 12.067
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_022\\squat\\bad\\side\\subject_022_squat_bad_side.mp4",
+          "subject": "subject_022",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 28.333
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_022\\squat\\good\\side\\subject_022_squat_good_side.mp4",
+          "subject": "subject_022",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 28.2
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_023\\squat\\bad\\side\\subject_023_squat_bad_side.mp4",
+          "subject": "subject_023",
+          "label": "bad",
+          "width": 540,
+          "height": 960,
+          "fps": 15.0,
+          "duration_s": 30.067
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_023\\squat\\good\\side\\subject_023_squat_good_side.mp4",
+          "subject": "subject_023",
+          "label": "good",
+          "width": 540,
+          "height": 960,
+          "fps": 15.0,
+          "duration_s": 30.067
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_024\\squat\\bad\\side\\subject_024_squat_bad_side.mp4",
+          "subject": "subject_024",
+          "label": "bad",
+          "width": 540,
+          "height": 960,
+          "fps": 15.0,
+          "duration_s": 29.333
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_024\\squat\\good\\side\\subject_024_squat_good_side.mp4",
+          "subject": "subject_024",
+          "label": "good",
+          "width": 540,
+          "height": 960,
+          "fps": 15.0,
+          "duration_s": 33.067
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_026\\squat\\bad\\side\\subject_026_squat_bad_side.mp4",
+          "subject": "subject_026",
+          "label": "bad",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 30.8
+        },
+        {
+          "path": "data\\sources\\Dataset Subject-wise\\subject_026\\squat\\good\\side\\subject_026_squat_good_side.mp4",
+          "subject": "subject_026",
+          "label": "good",
+          "width": 810,
+          "height": 1440,
+          "fps": 15.0,
+          "duration_s": 30.6
+        }
+      ]
+    }
+  }
+}
