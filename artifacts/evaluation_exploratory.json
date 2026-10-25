@@ -1,0 +1,600 @@
+{
+  "mlp": {
+    "denominator_frame_ids": [
+      "02c3f1d696926ce49dd1",
+      "039b5aa0e79c9b99c420",
+      "045a2241bef8668f06f8",
+      "08b2bb63054c20caf804",
+      "11e2f388b902549a573e",
+      "138e406aa57b90d7999a",
+      "155a96718ac94cfa9acd",
+      "1e159f9e3a0b6ca6fe89",
+      "1f57d89eef143d54fd72",
+      "2a0d394490190c0be3c0",
+      "2e93af029d3b7ef2600b",
+      "30535edec9905a2a30e5",
+      "335414a67f3712bd89da",
+      "349843efc892fe4af30c",
+      "35b42d5705e34ab88421",
+      "3686363e890e08ae5b3c",
+      "383a4b70112de2ad7804",
+      "3cbe216a9394e44cca66",
+      "3efd02de28ac0da48554",
+      "411424a65035cd4b05fe",
+      "416242dd5f02494555d7",
+      "43cc0e2a4f680ef0160e",
+      "44bce72535d0ebea71a3",
+      "46de511c4d75a9f91689",
+      "4720be651306729d1c27",
+      "48065aaa54f0e486abd6",
+      "4f64b12e613685d39b6f",
+      "500096eface97865922a",
+      "5667b991109a413454b6",
+      "5970b89245da33093428",
+      "5a42d37a820923e6ed55",
+      "5aca22583b7ebb9d3228",
+      "5d5c1a9488ee5a6cb6c4",
+      "5de7837d7b0a3eaa5cce",
+      "5f34d11a6f2f609df804",
+      "6f5f89e865efcc07f8f0",
+      "71a1989ddb7e164a8c41",
+      "71fef23b1c88a3334560",
+      "785313d820687f3b5dfb",
+      "7b859ca300d492436bcc",
+      "7c01fc960ebada978b70",
+      "7dc63216bbc938bbe218",
+      "7f6ca3d4008620298c5f",
+      "8334efc88b68f810de68",
+      "85cfc2e0122bb15218e0",
+      "86207aaf6e7d37d32715",
+      "893be50369b6a37b403e",
+      "8a51dd291e7dcba166b9",
+      "8a81852efeccdea0c9ff",
+      "8aee05903947de3716ba",
+      "8b06cb3eaa7ba5dbbb0d",
+      "8de5f3b39a1154f3a32f",
+      "925e6f8d32da90b7632a",
+      "935fd0a1746809f4f996",
+      "9619ae1e05ab37a7918c",
+      "97c92733feaa34521e55",
+      "9ad08e77e229a55eb48f",
+      "9b1b3688e5e64ea15826",
+      "9b84350096014235a31b",
+      "9c01a2516a8410ddc3c3",
+      "9d2451f9dfb3746e8e87",
+      "9f12d7a52a02f518bc70",
+      "9fe786a8271eeb486da9",
+      "a15f52080f80d3637c9d",
+      "a17ea66b0668e4c3cce4",
+      "a6f77cbed37719f30044",
+      "ae5dc2129b795c7436c1",
+      "b04ddfc8d7bb42be63f1",
+      "b0946d92f7d80364a33e",
+      "b2390ab8783a13bb7580",
+      "b462bf8f23b207731c78",
+      "b709b006ce7c8f74a37e",
+      "bd9e54d3fe17b453a39b",
+      "c3cac68725e90ecdd231",
+      "c6b6e3578c478d875500",
+      "c95455ecda2535e7906a",
+      "cbb6f87ce7c4ce267872",
+      "d0e67785e7c517e08f06",
+      "d15913041dc86e904308",
+      "d16b4205b3ec65c37052",
+      "d4ca6f1f230fa38758ca",
+      "d50701d5ed53298fc16b",
+      "d7a8c4359d9c8e9112ab",
+      "d8436e8efba0825f7e7b",
+      "dad786b5ca34a64b7032",
+      "dd1f09893a7857aa7da3",
+      "df46c51f444b3434dc22",
+      "e1e8ed81e2cb9fba08d8",
+      "e3456145642a3207eef9",
+      "e8825bd96ec5996c565e",
+      "e98cdff7565d3ff0c591",
+      "e9fe0656d0218c5e7b39",
+      "eb3246379b198bab78c1",
+      "ecf21ad74445c4f036f7",
+      "ee2cf7f1314a287d093b",
+      "efb6bf1b7b7416b7373a",
+      "fb0a1e2cc7077c2fd26a",
+      "fbd4e932788df0656ecf",
+      "fcc3ee7a088ade92be55"
+    ],
+    "frames": 99,
+    "exercise_accuracy_exploratory": 0.8282828282828283,
+    "exercise_confusion": {
+      "push_up": {
+        "push_up": 39,
+        "plank": 1
+      },
+      "squat": {
+        "squat": 28,
+        "plank": 1,
+        "push_up": 1
+      },
+      "sit_up": {
+        "sit_up": 9
+      },
+      "mountain_climber": {
+        "mountain_climber": 12,
+        "push_up": 8
+      }
+    },
+    "statuses": {
+      "ok": 71,
+      "unsupported_form": 20,
+      "uncertain": 8
+    },
+    "abstention_rate": 0.2828282828282828,
+    "form_per_class": {
+      "plank": {
+        "frames": 0,
+        "conditions": {
+          "correct": {
+            "frames": 0,
+            "groups": 0
+          },
+          "incorrect": {
+            "frames": 0,
+            "groups": 0
+          }
+        },
+        "reportable": false,
+        "exploratory_accuracy": null,
+        "confusion": {}
+      },
+      "mountain_climber": {
+        "frames": 20,
+        "conditions": {
+          "correct": {
+            "frames": 10,
+            "groups": 1
+          },
+          "incorrect": {
+            "frames": 10,
+            "groups": 1
+          }
+        },
+        "reportable": false,
+        "exploratory_accuracy": null,
+        "confusion": {
+          "incorrect": {
+            "abstain": 10
+          },
+          "correct": {
+            "wrong_exercise": 8,
+            "abstain": 2
+          }
+        }
+      },
+      "push_up": {
+        "frames": 40,
+        "conditions": {
+          "correct": {
+            "frames": 20,
+            "groups": 4
+          },
+          "incorrect": {
+            "frames": 20,
+            "groups": 4
+          }
+        },
+        "reportable": true,
+        "exploratory_accuracy": 0.7,
+        "confusion": {
+          "incorrect": {
+            "correct": 7,
+            "incorrect": 11,
+            "wrong_exercise": 1,
+            "abstain": 1
+          },
+          "correct": {
+            "correct": 17,
+            "incorrect": 2,
+            "abstain": 1
+          }
+        }
+      },
+      "sit_up": {
+        "frames": 0,
+        "conditions": {
+          "correct": {
+            "frames": 0,
+            "groups": 0
+          },
+          "incorrect": {
+            "frames": 0,
+            "groups": 0
+          }
+        },
+        "reportable": false,
+        "exploratory_accuracy": null,
+        "confusion": {}
+      },
+      "squat": {
+        "frames": 30,
+        "conditions": {
+          "correct": {
+            "frames": 16,
+            "groups": 4
+          },
+          "incorrect": {
+            "frames": 14,
+            "groups": 4
+          }
+        },
+        "reportable": false,
+        "exploratory_accuracy": null,
+        "confusion": {
+          "incorrect": {
+            "incorrect": 10,
+            "correct": 3,
+            "abstain": 1
+          },
+          "correct": {
+            "incorrect": 11,
+            "correct": 3,
+            "wrong_exercise": 2
+          }
+        }
+      }
+    },
+    "label": "exploratory",
+    "latency_ms_median": 34.232399993925355,
+    "latency_ms_p95": 47.643330002028954
+  },
+  "yolo": {
+    "denominator_frame_ids": [
+      "02c3f1d696926ce49dd1",
+      "039b5aa0e79c9b99c420",
+      "045a2241bef8668f06f8",
+      "08b2bb63054c20caf804",
+      "11e2f388b902549a573e",
+      "138e406aa57b90d7999a",
+      "155a96718ac94cfa9acd",
+      "1e159f9e3a0b6ca6fe89",
+      "1f57d89eef143d54fd72",
+      "2a0d394490190c0be3c0",
+      "2e93af029d3b7ef2600b",
+      "30535edec9905a2a30e5",
+      "335414a67f3712bd89da",
+      "349843efc892fe4af30c",
+      "35b42d5705e34ab88421",
+      "3686363e890e08ae5b3c",
+      "383a4b70112de2ad7804",
+      "3cbe216a9394e44cca66",
+      "3efd02de28ac0da48554",
+      "411424a65035cd4b05fe",
+      "416242dd5f02494555d7",
+      "43cc0e2a4f680ef0160e",
+      "44bce72535d0ebea71a3",
+      "46de511c4d75a9f91689",
+      "4720be651306729d1c27",
+      "48065aaa54f0e486abd6",
+      "4f64b12e613685d39b6f",
+      "500096eface97865922a",
+      "5667b991109a413454b6",
+      "5970b89245da33093428",
+      "5a42d37a820923e6ed55",
+      "5aca22583b7ebb9d3228",
+      "5d5c1a9488ee5a6cb6c4",
+      "5de7837d7b0a3eaa5cce",
+      "5f34d11a6f2f609df804",
+      "6f5f89e865efcc07f8f0",
+      "71a1989ddb7e164a8c41",
+      "71fef23b1c88a3334560",
+      "785313d820687f3b5dfb",
+      "7b859ca300d492436bcc",
+      "7c01fc960ebada978b70",
+      "7dc63216bbc938bbe218",
+      "7f6ca3d4008620298c5f",
+      "8334efc88b68f810de68",
+      "85cfc2e0122bb15218e0",
+      "86207aaf6e7d37d32715",
+      "893be50369b6a37b403e",
+      "8a51dd291e7dcba166b9",
+      "8a81852efeccdea0c9ff",
+      "8aee05903947de3716ba",
+      "8b06cb3eaa7ba5dbbb0d",
+      "8de5f3b39a1154f3a32f",
+      "925e6f8d32da90b7632a",
+      "935fd0a1746809f4f996",
+      "9619ae1e05ab37a7918c",
+      "97c92733feaa34521e55",
+      "9ad08e77e229a55eb48f",
+      "9b1b3688e5e64ea15826",
+      "9b84350096014235a31b",
+      "9c01a2516a8410ddc3c3",
+      "9d2451f9dfb3746e8e87",
+      "9f12d7a52a02f518bc70",
+      "9fe786a8271eeb486da9",
+      "a15f52080f80d3637c9d",
+      "a17ea66b0668e4c3cce4",
+      "a6f77cbed37719f30044",
+      "ae5dc2129b795c7436c1",
+      "b04ddfc8d7bb42be63f1",
+      "b0946d92f7d80364a33e",
+      "b2390ab8783a13bb7580",
+      "b462bf8f23b207731c78",
+      "b709b006ce7c8f74a37e",
+      "bd9e54d3fe17b453a39b",
+      "c3cac68725e90ecdd231",
+      "c6b6e3578c478d875500",
+      "c95455ecda2535e7906a",
+      "cbb6f87ce7c4ce267872",
+      "d0e67785e7c517e08f06",
+      "d15913041dc86e904308",
+      "d16b4205b3ec65c37052",
+      "d4ca6f1f230fa38758ca",
+      "d50701d5ed53298fc16b",
+      "d7a8c4359d9c8e9112ab",
+      "d8436e8efba0825f7e7b",
+      "dad786b5ca34a64b7032",
+      "dd1f09893a7857aa7da3",
+      "df46c51f444b3434dc22",
+      "e1e8ed81e2cb9fba08d8",
+      "e3456145642a3207eef9",
+      "e8825bd96ec5996c565e",
+      "e98cdff7565d3ff0c591",
+      "e9fe0656d0218c5e7b39",
+      "eb3246379b198bab78c1",
+      "ecf21ad74445c4f036f7",
+      "ee2cf7f1314a287d093b",
+      "efb6bf1b7b7416b7373a",
+      "fb0a1e2cc7077c2fd26a",
+      "fbd4e932788df0656ecf",
+      "fcc3ee7a088ade92be55"
+    ],
+    "frames": 99,
+    "exercise_accuracy_exploratory": 0.020202020202020204,
+    "exercise_confusion": {
+      "push_up": {
+        "push_up": 29,
+        "abstain": 6,
+        "plank": 5
+      },
+      "squat": {
+        "squat": 26,
+        "abstain": 4
+      },
+      "sit_up": {
+        "abstain": 8,
+        "sit_up": 1
+      },
+      "mountain_climber": {
+        "abstain": 17,
+        "plank": 2,
+        "push_up": 1
+      }
+    },
+    "statuses": {
+      "uncertain": 87,
+      "multiple_people": 3,
+      "unsupported_form": 8,
+      "ok": 1
+    },
+    "abstention_rate": 0.98989898989899,
+    "form_per_class": {
+      "plank": {
+        "frames": 0,
+        "conditions": {
+          "correct": {
+            "frames": 0,
+            "groups": 0
+          },
+          "incorrect": {
+            "frames": 0,
+            "groups": 0
+          }
+        },
+        "reportable": false,
+        "exploratory_accuracy": null,
+        "confusion": {}
+      },
+      "mountain_climber": {
+        "frames": 20,
+        "conditions": {
+          "correct": {
+            "frames": 10,
+            "groups": 1
+          },
+          "incorrect": {
+            "frames": 10,
+            "groups": 1
+          }
+        },
+        "reportable": false,
+        "exploratory_accuracy": null,
+        "confusion": {
+          "incorrect": {
+            "abstain": 7,
+            "wrong_exercise": 3
+          },
+          "correct": {
+            "abstain": 10
+          }
+        }
+      },
+      "push_up": {
+        "frames": 40,
+        "conditions": {
+          "correct": {
+            "frames": 20,
+            "groups": 4
+          },
+          "incorrect": {
+            "frames": 20,
+            "groups": 4
+          }
+        },
+        "reportable": true,
+        "exploratory_accuracy": 0.0,
+        "confusion": {
+          "incorrect": {
+            "abstain": 17,
+            "wrong_exercise": 3
+          },
+          "correct": {
+            "abstain": 18,
+            "wrong_exercise": 2
+          }
+        }
+      },
+      "sit_up": {
+        "frames": 0,
+        "conditions": {
+          "correct": {
+            "frames": 0,
+            "groups": 0
+          },
+          "incorrect": {
+            "frames": 0,
+            "groups": 0
+          }
+        },
+        "reportable": false,
+        "exploratory_accuracy": null,
+        "confusion": {}
+      },
+      "squat": {
+        "frames": 30,
+        "conditions": {
+          "correct": {
+            "frames": 16,
+            "groups": 4
+          },
+          "incorrect": {
+            "frames": 14,
+            "groups": 4
+          }
+        },
+        "reportable": false,
+        "exploratory_accuracy": null,
+        "confusion": {
+          "incorrect": {
+            "abstain": 13,
+            "incorrect": 1
+          },
+          "correct": {
+            "abstain": 16
+          }
+        }
+      }
+    },
+    "label": "exploratory",
+    "latency_ms_median": 94.73729999444913,
+    "latency_ms_p95": 120.56863000034353
+  },
+  "shared_denominator": [
+    "02c3f1d696926ce49dd1",
+    "039b5aa0e79c9b99c420",
+    "045a2241bef8668f06f8",
+    "08b2bb63054c20caf804",
+    "11e2f388b902549a573e",
+    "138e406aa57b90d7999a",
+    "155a96718ac94cfa9acd",
+    "1e159f9e3a0b6ca6fe89",
+    "1f57d89eef143d54fd72",
+    "2a0d394490190c0be3c0",
+    "2e93af029d3b7ef2600b",
+    "30535edec9905a2a30e5",
+    "335414a67f3712bd89da",
+    "349843efc892fe4af30c",
+    "35b42d5705e34ab88421",
+    "3686363e890e08ae5b3c",
+    "383a4b70112de2ad7804",
+    "3cbe216a9394e44cca66",
+    "3efd02de28ac0da48554",
+    "411424a65035cd4b05fe",
+    "416242dd5f02494555d7",
+    "43cc0e2a4f680ef0160e",
+    "44bce72535d0ebea71a3",
+    "46de511c4d75a9f91689",
+    "4720be651306729d1c27",
+    "48065aaa54f0e486abd6",
+    "4f64b12e613685d39b6f",
+    "500096eface97865922a",
+    "5667b991109a413454b6",
+    "5970b89245da33093428",
+    "5a42d37a820923e6ed55",
+    "5aca22583b7ebb9d3228",
+    "5d5c1a9488ee5a6cb6c4",
+    "5de7837d7b0a3eaa5cce",
+    "5f34d11a6f2f609df804",
+    "6f5f89e865efcc07f8f0",
+    "71a1989ddb7e164a8c41",
+    "71fef23b1c88a3334560",
+    "785313d820687f3b5dfb",
+    "7b859ca300d492436bcc",
+    "7c01fc960ebada978b70",
+    "7dc63216bbc938bbe218",
+    "7f6ca3d4008620298c5f",
+    "8334efc88b68f810de68",
+    "85cfc2e0122bb15218e0",
+    "86207aaf6e7d37d32715",
+    "893be50369b6a37b403e",
+    "8a51dd291e7dcba166b9",
+    "8a81852efeccdea0c9ff",
+    "8aee05903947de3716ba",
+    "8b06cb3eaa7ba5dbbb0d",
+    "8de5f3b39a1154f3a32f",
+    "925e6f8d32da90b7632a",
+    "935fd0a1746809f4f996",
+    "9619ae1e05ab37a7918c",
+    "97c92733feaa34521e55",
+    "9ad08e77e229a55eb48f",
+    "9b1b3688e5e64ea15826",
+    "9b84350096014235a31b",
+    "9c01a2516a8410ddc3c3",
+    "9d2451f9dfb3746e8e87",
+    "9f12d7a52a02f518bc70",
+    "9fe786a8271eeb486da9",
+    "a15f52080f80d3637c9d",
+    "a17ea66b0668e4c3cce4",
+    "a6f77cbed37719f30044",
+    "ae5dc2129b795c7436c1",
+    "b04ddfc8d7bb42be63f1",
+    "b0946d92f7d80364a33e",
+    "b2390ab8783a13bb7580",
+    "b462bf8f23b207731c78",
+    "b709b006ce7c8f74a37e",
+    "bd9e54d3fe17b453a39b",
+    "c3cac68725e90ecdd231",
+    "c6b6e3578c478d875500",
+    "c95455ecda2535e7906a",
+    "cbb6f87ce7c4ce267872",
+    "d0e67785e7c517e08f06",
+    "d15913041dc86e904308",
+    "d16b4205b3ec65c37052",
+    "d4ca6f1f230fa38758ca",
+    "d50701d5ed53298fc16b",
+    "d7a8c4359d9c8e9112ab",
+    "d8436e8efba0825f7e7b",
+    "dad786b5ca34a64b7032",
+    "dd1f09893a7857aa7da3",
+    "df46c51f444b3434dc22",
+    "e1e8ed81e2cb9fba08d8",
+    "e3456145642a3207eef9",
+    "e8825bd96ec5996c565e",
+    "e98cdff7565d3ff0c591",
+    "e9fe0656d0218c5e7b39",
+    "eb3246379b198bab78c1",
+    "ecf21ad74445c4f036f7",
+    "ee2cf7f1314a287d093b",
+    "efb6bf1b7b7416b7373a",
+    "fb0a1e2cc7077c2fd26a",
+    "fbd4e932788df0656ecf",
+    "fcc3ee7a088ade92be55"
+  ],
+  "yolo_box_map_separate": {
+    "exercise": {
+      "map50": 0.6438195381384242,
+      "map50_95": 0.3751100497438466
+    },
+    "form": {
+      "map50": 0.5695420711912927,
+      "map50_95": 0.3654625327656378
+    }
+  }
+}

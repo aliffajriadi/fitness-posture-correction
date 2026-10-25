@@ -49,6 +49,12 @@ def main():
         cap = cv2.VideoCapture(source)
     if not cap.isOpened():
         raise SystemExit(f"Cannot open capture: {source}")
+    if args.camera is not None:
+        cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+        cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+    window_name = "Fitness posture prototype | 1 MLP | 2 YOLO | q quit"
+    if not args.headless:
+        cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)
     active = args.pipeline
     start = time.perf_counter()
     display_times = deque(maxlen=120)
@@ -76,12 +82,12 @@ def main():
             latencies.append((now-t0)*1000)
             counts["rendered"] += 1
             if not args.headless:
-                cv2.imshow("Fitness posture prototype | 1 MLP | 2 YOLO | q quit", frame)
+                cv2.imshow(window_name, frame)
                 counts["displayed"] += 1
                 display_times.append(time.perf_counter())
                 if len(display_times) >= 2:
                     fps = (len(display_times)-1)/(display_times[-1]-display_times[0])
-                    cv2.setWindowTitle("Fitness posture prototype | 1 MLP | 2 YOLO | q quit", f"{active.upper()} | displayed {fps:.1f} FPS")
+                    cv2.setWindowTitle(window_name, f"{active.upper()} | displayed {fps:.1f} FPS")
                 key = cv2.waitKey(1) & 0xff
                 if key == ord("q"):
                     break

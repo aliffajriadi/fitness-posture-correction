@@ -1,0 +1,15 @@
+path: C:\Users\MEISKE\Projects\fitness-posture-correction\data\derived\training\yolo_form
+train: train/images
+val: val/images
+test: test/images
+names:
+  0: plank_correct
+  1: plank_incorrect
+  2: mountain_climber_correct
+  3: mountain_climber_incorrect
+  4: push_up_correct
+  5: push_up_incorrect
+  6: sit_up_correct
+  7: sit_up_incorrect
+  8: squat_correct
+  9: squat_incorrect

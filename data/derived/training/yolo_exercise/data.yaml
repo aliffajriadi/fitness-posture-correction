@@ -1,0 +1,10 @@
+path: C:\Users\MEISKE\Projects\fitness-posture-correction\data\derived\training\yolo_exercise
+train: train/images
+val: val/images
+test: test/images
+names:
+  0: plank
+  1: mountain_climber
+  2: push_up
+  3: sit_up
+  4: squat

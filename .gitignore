@@ -8,10 +8,12 @@ __pycache__/
 data/sources/
 
 # Build artifacts & runtime models
-artifacts/
-yolo12n.pt
+runs/
 Ultralytics/
 *.log
+yolo12n.pt
+artifacts/ultralytics_config/
+artifacts/**/last.pt
 
 # Internal engineering documents, Codex context, and planning
 CODEX_CONTEXT.md

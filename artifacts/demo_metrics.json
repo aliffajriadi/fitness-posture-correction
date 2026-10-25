@@ -1,0 +1,22 @@
+{
+  "source": "C:\\Users\\MEISKE\\Projects\\fitness-posture-correction\\data\\sources\\Dataset Subject-wise\\subject_001\\push_up\\bad\\side\\subject_001_push_up_bad_side.mp4",
+  "pipeline_initial": "mlp",
+  "headless": true,
+  "frames": {
+    "read": 30,
+    "rendered": 30,
+    "displayed": 0
+  },
+  "elapsed_s": 1.0462827000010293,
+  "status_counts": {
+    "unsupported_form": 15,
+    "multiple_people": 9,
+    "ok": 3,
+    "no_person": 1,
+    "uncertain": 2
+  },
+  "displayed_fps": null,
+  "processed_fps": 28.672938967614094,
+  "latency_ms_median": 24.10070000041742,
+  "latency_ms_p95": 33.120874997985084
+}
