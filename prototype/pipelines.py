@@ -25,9 +25,11 @@ class MLPPipeline:
         self.pose = PoseExtractor(pose_task)
         self.threshold = threshold
         self.last_geometry = None
+        self.last_landmarks = None
 
     def predict(self, bgr):
         self.last_geometry = None
+        self.last_landmarks = None
         poses = self.pose.detect(bgr)
         landmarks, status = primary_pose(poses, bgr.shape[1], bgr.shape[0])
         if status == "no_person":
@@ -36,6 +38,7 @@ class MLPPipeline:
             return prediction(status="multiple_people", feedback="Lebih dari satu orang")
         vector, geom = vectorize(landmarks)
         self.last_geometry = geom
+        self.last_landmarks = landmarks
         exercise_model = self.models["exercise"]
         exercise = str(exercise_model.predict(vector.reshape(1, -1))[0])
         confidence = _confidence(exercise_model, vector, exercise)

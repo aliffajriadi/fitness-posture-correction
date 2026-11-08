@@ -12,9 +12,51 @@ import numpy as np
 
 from prototype.feedback import FeedbackGuard
 from prototype.pipelines import MLPPipeline, YOLOPipeline
+from prototype.pose import VISIBILITY
 from prototype.schema import path_under, save_json
 
 ROOT = Path(__file__).resolve().parents[1]
+
+# MediaPipe Pose 33-landmark skeleton connectivity.
+# Each tuple is (start_index, end_index) following the official topology.
+_POSE_CONNECTIONS = (
+    (0, 1), (1, 2), (2, 3), (3, 7),        # left eye → ear
+    (0, 4), (4, 5), (5, 6), (6, 8),        # right eye → ear
+    (9, 10),                                 # mouth
+    (11, 12),                                # shoulders
+    (11, 13), (13, 15),                      # left arm
+    (12, 14), (14, 16),                      # right arm
+    (15, 17), (15, 19), (15, 21),            # left hand
+    (16, 18), (16, 20), (16, 22),            # right hand
+    (11, 23), (12, 24),                      # torso sides
+    (23, 24),                                # hips
+    (23, 25), (25, 27),                      # left leg
+    (24, 26), (26, 28),                      # right leg
+    (27, 29), (29, 31), (27, 31),            # left foot
+    (28, 30), (30, 32), (28, 32),            # right foot
+)
+
+# Colour scheme per body region (BGR).
+_LANDMARK_COLOUR = (0, 255, 0)        # green dots
+_CONNECTION_COLOUR = (0, 220, 0)      # green lines
+
+
+def _draw_landmarks(frame, landmarks, width, height):
+    """Draw the 33-point pose skeleton on *frame* using raw landmark data."""
+    coords = {}
+    for i, lm in enumerate(landmarks):
+        if lm.visibility >= VISIBILITY:
+            px, py = int(lm.x * width), int(lm.y * height)
+            coords[i] = (px, py)
+
+    # Draw connections first (under the dots).
+    for a, b in _POSE_CONNECTIONS:
+        if a in coords and b in coords:
+            cv2.line(frame, coords[a], coords[b], _CONNECTION_COLOUR, 2, cv2.LINE_AA)
+
+    # Draw landmark dots on top.
+    for (px, py) in coords.values():
+        cv2.circle(frame, (px, py), 4, _LANDMARK_COLOUR, cv2.FILLED, cv2.LINE_AA)
 
 
 def main():
@@ -73,7 +115,11 @@ def main():
             message = guard.present(result, geometry)
             result["feedback"] = message
             statuses[result["status"]] = statuses.get(result["status"], 0) + 1
-            if result["bbox"]:
+            # MLP: draw pose landmarks (skeleton); YOLO: draw bounding box.
+            if active == "mlp" and models[active].last_landmarks is not None:
+                _draw_landmarks(frame, models[active].last_landmarks,
+                                frame.shape[1], frame.shape[0])
+            elif result["bbox"]:
                 cv2.rectangle(frame, tuple(result["bbox"][:2]), tuple(result["bbox"][2:]), (0, 255, 0), 2)
             line = f"{active.upper()} | {result['exercise'] or '-'} | {result['status']} | {result['confidence']:.2f}"
             cv2.putText(frame, line, (12, 28), cv2.FONT_HERSHEY_SIMPLEX, .65, (0, 255, 255), 2)
